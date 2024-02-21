@@ -13,7 +13,7 @@ You should see the main interface, as shown in the image above. This is the star
 
 ## Step 2: Choose Your Model
 
-Before interacting with the chatbot, you must load a model. Click on the `Configuration` tab and select a model from the dropdown list under 'Available models in model dir'. Choose a model that fits your requirements. If you update the list of available models, it will list all .gguf models present in your /models directory. When your selection is made, click on the "Load Model" button and go the main "Chat Interface" Tab.
+Before interacting with the chatbot, you must load a model. Click on the `Configuration` tab and select a model from the dropdown list under 'Available models in model dir'. Choose a model that fits your requirements. If you refresh the list of available models, it will list all .gguf models present in your /models directory. When your selection is made, click on the "Load Model" button and go the main "Chat Interface" Tab.
 
 ![GPT-Sequencer Main Interface](./images/010=chooseyourmodel.png)
 
@@ -26,7 +26,7 @@ After selecting a model, the application will begin loading it. Once the model i
 
 ## Step 4: Ready to Chat
 
-With the model loaded, the `Chatbot` mode is now active. You'll notice the 'Sliding Memory' feature is enabled by default, which helps in maintaining context during the conversation. The default "roles" are set to "User :" and "Assistant :". You may edit those depending on the model requirements. If you disable the chatbot mode (checkbox), no roles will be appended to the conversation and sliding memory will be disabled, such may suit "Instruction mode" or any other purposes where context is provided expecting one-shot answer.
+With the model loaded, the `Chatbot` mode is now active. You'll notice the 'Sliding Memory' feature is enabled by default, which helps in maintaining context during the conversation. 
 
 To start chatting:
 
@@ -46,10 +46,12 @@ After sending your message, wait for the GPT-Sequencer to reply. The response wi
 ![Ready to Chat](./images/025-chat-waiting-answer.png)
 
 
-# Answer
+## Step 6 : Answer
+
+Please note: the default "roles" are set to "User :" and "Assistant :". You may edit those depending on the model requirements. If you disable the chatbot mode (checkbox), no roles will be appended to the conversation and sliding memory will be disabled, such may suit "Instruction mode" or any other purposes where context is provided expecting one-shot answer.
 
 ![Chatbot Reply](./images/030-chat-reply.png)
 
-Congratulations! You've successfully started a session with GPT-Sequencer. Continue exploring the various features and settings to fully utilize the capabilities of this powerful chat interface.
+Congratulations! You've successfully started a session with GPT-Sequencer. Continue exploring the various features and settings to fully utilize the capabilities of this chat interface.
 
 Stay tuned for the next chapters where we will delve deeper into sequence design, batch execution, and other advanced features of GPT-Sequencer.
