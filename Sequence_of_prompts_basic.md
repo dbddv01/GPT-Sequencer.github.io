@@ -32,7 +32,7 @@ After saving, ensure that the sequence has been saved correctly by checking the 
 ### Step 6: Loading the New Sequence File
 ![Loading the New Sequence File](/images/150-sequence-load.png)
 
-To use your new sequence, load it by selecting the file from the dropdown list and confirming it in the Active Sequence file section.
+To use your new sequence, Go back to the main Chat Inerface Tab and load it by selecting the file from the dropdown list and confirming it in the Active Sequence file section.
 
 ### Step 7: Working with the Summarizer Sequence
 ![Working with the Summarizer Sequence](/images/160-sequence-load.png)
