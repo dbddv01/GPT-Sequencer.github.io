@@ -1,6 +1,6 @@
 ## Understanding and Modifying Sequence CSV Files
 
-This section of the documentation explains how to understand and modify the sequence CSV files that steer the prompt manipulation submitted to the AI Language Model (LLM). We will use a basic summarization example to illustrate how to modify the default sequence and create a new sequence file.
+This section of the documentation explains how to understand and modify the sequence CSV files that steer the prompt manipulation submitted to the AI Language Model (LLM) or other functions. We will use a basic summarization example to illustrate how to modify the default sequence and create a new sequence file.
 
 ### Step 1: Starting with the Default Sequence
 ![Starting with the Default Sequence](/images/110-sequence-start.png)
@@ -20,12 +20,14 @@ Customize the `input` column to change the prompt sent to the LLM. For instance,
 ### Step 4: Saving the New Sequence File
 ![Saving the New Sequence File](/images/135-sequence-modify-filename.png)
 
-Once you have made your changes, you will need to save the new sequence. Enter the desired filename in the CSV save path.
+Once you have made your changes, you will need to save the new sequence. Enter the desired filename in the CSV save path. Preferably use the "promptchain/yourcsv.csv" as path.
 
 ### Step 5: Verifying the Save
 ![Verifying the Save](/images/140-sequence-saveas.png)
 
 After saving, ensure that the sequence has been saved correctly by checking the status message and the file path.
+
+![Verifying the Save](/images/145-sequence-saveas.png)
 
 ### Step 6: Loading the New Sequence File
 ![Loading the New Sequence File](/images/150-sequence-load.png)
