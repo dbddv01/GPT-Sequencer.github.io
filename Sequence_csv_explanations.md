@@ -2,6 +2,10 @@
 
 The sequence is defined in a tabular format with columns representing different aspects of each step in the sequence:
 
+Hereunder as an example, the breakdown analysis of a sequence named "docu_search5.csv".
+
+Based on a user question, and an uploaded document in the library, the docu_search function will find relevant text chunks (based on semantic similarities result) to the question, the LLM is then instructed to use these text snippets to write down a potential answer to the initial question raised (llm_completion function), the results are then sent as an answer to end-user (user_input).
+
 
 | Input                                                                                                                                      | Action          | Option                               | next_df                      |
 |--------------------------------------------------------------------------------------------------------------------------------------------|-----------------|--------------------------------------|------------------------------|
