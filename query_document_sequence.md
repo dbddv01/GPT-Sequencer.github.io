@@ -1,7 +1,7 @@
 ## Document Ingestion and Query Handling in GPT Sequencer
 
 ### Overview
-The GPT Sequencer streamlines document processing and enables users to pose questions directly to uploaded documents. This markdown documentation, along with the provided images from the `/images` directory on GitHub, will guide you through the process of uploading a document, embedding it into the system, and querying it for information.
+The GPT Sequencer use chromaDB vectorstores and embeddings to pose questions directly to uploaded documents. Here an example to guide you through the process of uploading a document, embedding it into the system, and querying it for information.
 
 ### Step-by-Step Guide
 
