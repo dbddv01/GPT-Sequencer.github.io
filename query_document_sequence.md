@@ -8,7 +8,7 @@ The GPT Sequencer use chromaDB vectorstores and embeddings to pose questions dir
 #### Uploading and Embedding a Document
 1. **Starting the Process:**
 
-    - Click on `Upload Text` in the GPT Sequencer interface to upload a new document.
+    - Under **Library Tab**, Click on `Upload Text` in the GPT Sequencer interface to upload a new document.
       
      ![Starting the Process](/images/200_ingestpdf_upload.png)
    
@@ -36,7 +36,7 @@ The GPT Sequencer use chromaDB vectorstores and embeddings to pose questions dir
 
 #### Executing a Document Search Sequence
 4. **Loading the Sequence:**
-   - To load the document search sequence, click on `Load Sequence.` and select the appropriate Sequence (.csv) file, e.g.: "docu_search5.csv". I advise to uncheck the `Sliding memory` as well.
+   - Go to the **Mode Tab** and load the document search sequence (e.g.: "docu_search5.csv") , select it via the dropdown list labeled `Load Another Seq.` and click on **Load Sequence**. Preferably also  uncheck the `Sliding memory` as well.
      
      ![Loading Sequence](/images/270_load_docsearch_sequence.png)
      ![Sequence Selection](/images/272_load_docsearch_sequence.png)
